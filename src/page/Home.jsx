@@ -1,6 +1,7 @@
 import Banner from "../components/banner/Banner";
 import Mission from "../components/mission/Mission";
 import Navbar from "../components/navbar/Navbar";
+import Service from "../components/service/Service";
 import Statistics from "../components/statistics/Statistics";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
             <Banner/>
             <Statistics/>
             <Mission/>
+            <Service/>
         </div>
     );
 };
