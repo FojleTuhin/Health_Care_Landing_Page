@@ -2,7 +2,7 @@ import Navbar from "../components/navbar/Navbar";
 
 const Home = () => {
     return (
-        <div>
+        <div className=" px-[70px] inter">
             <Navbar/>
         </div>
     );
