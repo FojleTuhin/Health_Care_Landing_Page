@@ -1,4 +1,5 @@
 import Banner from "../components/banner/Banner";
+import Mission from "../components/mission/Mission";
 import Navbar from "../components/navbar/Navbar";
 import Statistics from "../components/statistics/Statistics";
 
@@ -8,6 +9,7 @@ const Home = () => {
             <Navbar/>
             <Banner/>
             <Statistics/>
+            <Mission/>
         </div>
     );
 };

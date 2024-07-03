@@ -3,7 +3,7 @@
 
 const statistics = () => {
     return (
-        <div className="flex mt-10 gap-5 mb-20 flex-col-reverse md:flex-row">
+        <div className="flex mt-10 gap-5  flex-col-reverse md:flex-row">
 
             <div className="md:w-[20%]">
                 <div className=" border-[0.5px] rounded-3xl bg-white border-[#02004333] p-5 h-[330px] ">
