@@ -1,4 +1,5 @@
 import Banner from "../components/banner/Banner";
+import BottomBanner from "../components/bottom-banner/BottomBanner";
 import Faq from "../components/faq/Faq";
 import Mission from "../components/mission/Mission";
 import Navbar from "../components/navbar/Navbar";
@@ -16,6 +17,7 @@ const Home = () => {
             <Service/>
             <Testimonial/>
             <Faq/>
+            <BottomBanner/>
         </div>
     );
 };
