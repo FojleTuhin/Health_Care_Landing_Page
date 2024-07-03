@@ -12,7 +12,7 @@ const Testimonial = () => {
             <p className="text-4xl font-semibold mb-[30px]">What they say about us</p>
             <div>
                 <Swiper
-                    slidesPerView={'auto'}
+                    slidesPerView={3}
                     spaceBetween={30}
                     pagination={{
                         clickable: true,
@@ -40,7 +40,7 @@ const Testimonial = () => {
                         </div>
 
                     </div></SwiperSlide>
-                    <SwiperSlide><div className="bg-[#FFFFF5] p-5 rounded-2xl">
+                    <SwiperSlide><div className="bg-[#FFFFF5] p-5 rounded-2xl md:w-[339px]">
                         <p className="text-[19px] font-semibold text-[#020043]">A Partner in Health and
                         Wellness</p>
                         <p className="mt-3 text-xs text-[#4D4C7B]">My experience at [Healthcare Provider Name] was life-changing. The prompt and accurate diagnosis, coupled with the advanced treatments they provided, saved my life.</p>
@@ -60,7 +60,7 @@ const Testimonial = () => {
                         </div>
 
                     </div></SwiperSlide>
-                    <SwiperSlide><div className="bg-[#FFFFF5] p-5 rounded-2xl">
+                    <SwiperSlide><div className="bg-[#FFFFF5] p-5 rounded-2xl md:w-[339px]">
                         <p className="text-[19px] font-semibold text-[#020043]">A Partner in Health and
                         Wellness</p>
                         <p className="mt-3 text-xs text-[#4D4C7B]">As a busy professional, I appreciate the convenience and quality of care I receive at [Healthcare Provider Name]. From telemedicine consultations to routine check-ups, they've become my trusted partner in health and</p>
@@ -80,7 +80,7 @@ const Testimonial = () => {
                         </div>
 
                     </div></SwiperSlide>
-                    <SwiperSlide><div className="bg-[#FFFFF5] p-5 rounded-2xl">
+                    <SwiperSlide><div className="bg-[#FFFFF5] p-5 rounded-2xl md:w-[339px]">
                         <p className="text-[19px] font-semibold text-[#020043]">Expertise and Compassion Combined</p>
                         <p className="mt-3 text-xs text-[#4D4C7B]">I can't thank enough for their exceptional care. The doctors and staff showed incredible expertise and compassion throughout my treatment journey. I felt truly cared for every step of the way.</p>
 
